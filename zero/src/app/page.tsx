@@ -1,65 +1,145 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen bg-white text-zinc-900">
+      {/* Hero Section */}
+      <section className="relative min-h-screen flex items-center justify-center px-6 py-20">
+        <div className="max-w-4xl mx-auto text-center">
+          <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-6 text-zinc-900">
+            Zero Two
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-xl md:text-2xl text-zinc-600 font-light max-w-2xl mx-auto leading-relaxed">
+            My waifus, so i want to let all of you know about it, sybau
+          </p>
+          <div className="mt-16 h-px w-24 bg-zinc-300 mx-auto"></div>
+        </div>
+      </section>
+
+      {/* Introduction */}
+      <section className="px-6 py-20 max-w-4xl mx-auto">
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-8">
+            Zero Two adalah salah satu karakter anime paling ikonik dan kompleks yang pernah muncul dalam dunia anime modern, khususnya setelah kemunculannya dalam seri <strong className="font-medium text-zinc-900">Darling in the Franxx</strong> yang tayang pada tahun 2018. Ia bukan hanya karakter utama wanita, tetapi juga simbol dari tema besar cerita: identitas, keterasingan, cinta, dan konflik antara kemanusiaan dan naluri.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* World Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Dunia Distopia</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Zero Two hidup di dunia distopia masa depan di mana umat manusia bertahan hidup dengan mengorbankan kebebasan, emosi, dan hubungan alami. Dunia ini dipenuhi oleh struktur sosial kaku, di mana anak-anak diciptakan dan dibesarkan hanya untuk menjadi pilot robot tempur bernama <strong className="font-medium text-zinc-900">Franxx</strong>, yang digunakan untuk melawan makhluk raksasa bernama <strong className="font-medium text-zinc-900">Klaxosaur</strong>. Anak-anak ini tidak memiliki keluarga, tidak memiliki masa kecil normal, dan tidak memiliki masa depan selain bertarung sampai mati.
+          </p>
         </div>
-      </main>
+      </section>
+
+      {/* Identity Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Bukan Manusia Seutuhnya</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Zero Two bukan manusia sepenuhnya. Ia adalah hasil eksperimen antara manusia dan Klaxosaur Princess, menjadikannya makhluk hibrida. Tubuhnya terlihat seperti manusia perempuan remaja, tetapi ia memiliki <strong className="font-medium text-zinc-900">tanduk merah kecil di kepala</strong>, <strong className="font-medium text-zinc-900">mata hijau tajam</strong>, dan <strong className="font-medium text-zinc-900">darah biru</strong> yang menandakan bahwa ia bukan manusia murni. Karena perbedaan ini, sejak kecil ia selalu dianggap sebagai monster, bukan sebagai anak. Ia dipenjara, dijadikan objek penelitian, dan diperlakukan sebagai alat militer, bukan sebagai individu.
+          </p>
+        </div>
+      </section>
+
+      {/* Childhood Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Masa Kecil yang Sepi</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Pada masa kecilnya, Zero Two hidup dalam kesepian ekstrem. Ia tidak tahu apa itu kasih sayang. Ia hanya tahu bahwa dirinya berbeda dan dibenci. Semua ini berubah ketika ia bertemu dengan seorang anak laki-laki bernama <strong className="font-medium text-zinc-900">Hiro</strong> saat mereka masih sangat kecil. Hiro tidak takut padanya. Hiro memberinya sebuah buku bergambar tentang dunia luar, tentang burung, tentang langit, dan tentang kebebasan. Untuk pertama kalinya, Zero Two merasa diperlakukan sebagai manusia.
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Hiro adalah satu-satunya orang yang tidak melihat Zero Two sebagai monster. Dari titik itu, Zero Two membangun seluruh identitas emosionalnya di sekitar Hiro. Ia ingin menjadi manusia agar bisa bersama Hiro. Ia ingin hidup seperti gadis biasa. Ia ingin dicintai.
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg">
+            Namun takdir memisahkan mereka. Hiro kemudian kehilangan ingatannya, sementara Zero Two mengingat semuanya. Sejak saat itu, Zero Two hidup dengan satu tujuan obsesif: menemukan kembali Hiro dan menjadi cukup manusia agar pantas berada di sisinya.
+          </p>
+        </div>
+      </section>
+
+      {/* Partner Killer Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Partner Killer</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Dalam dunia Franxx, pilot harus bekerja berpasangan pria dan wanita, dan sinkronisasi emosional mereka menentukan kekuatan robot. Zero Two memiliki kemampuan luar biasa dalam bertarung, tetapi ada harga yang harus dibayar. Siapa pun yang menjadi partner Zero Two akan perlahan mati karena tubuhnya tidak mampu menahan sinkronisasi dengan darah Klaxosaur dalam dirinya. Karena itu, ia dijuluki <strong className="font-medium text-zinc-900">"Partner Killer."</strong>
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg">
+            Zero Two tahu ini. Ia tahu orang-orang mati karena dirinya. Tetapi ia tidak peduli. Dalam pikirannya, semua partner selain Hiro hanyalah alat. Ia menggunakan mereka untuk membunuh Klaxosaur agar dirinya semakin dekat dengan evolusi menjadi manusia sejati.
+          </p>
+        </div>
+      </section>
+
+      {/* Reunion Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Pertemuan Kembali</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Saat ia akhirnya bertemu kembali dengan Hiro, takdir kembali bergerak. Hiro adalah satu-satunya orang yang mampu bertahan sebagai partner Zero Two tanpa mati. Hubungan mereka bukan hanya romantis, tetapi bersifat eksistensial. Hiro memberi Zero Two identitas sebagai manusia. Zero Two memberi Hiro tujuan hidup.
+          </p>
+        </div>
+      </section>
+
+      {/* Personality Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Kepribadian yang Kontras</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Kepribadian Zero Two sangat kontras. Di permukaan, ia terlihat provokatif, liar, percaya diri, dan manipulatif. Ia menggoda, mengejek, dan sering melanggar aturan. Namun di dalam dirinya, Zero Two adalah makhluk yang sangat rapuh, penuh trauma, dan ketakutan ditinggalkan. Semua sikap agresif dan dominannya adalah mekanisme bertahan hidup dari seorang anak yang sejak kecil hanya mengenal penolakan.
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Zero Two sangat takut tidak dicintai. Ia takut bahwa jika orang melihat siapa dirinya sebenarnya, mereka akan menjauh. Karena itu, ia memilih untuk menjadi monster daripada ditolak sebagai manusia.
+          </p>
+        </div>
+      </section>
+
+      {/* Identity Conflict Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Konflik Identitas</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Dalam perkembangan cerita, Zero Two harus menghadapi kenyataan pahit bahwa dirinya tidak akan pernah menjadi manusia sepenuhnya. Ia bukan manusia, bukan juga Klaxosaur. Ia berada di antara dua dunia dan tidak sepenuhnya diterima oleh keduanya. Konflik ini adalah inti dari karakter Zero Two: pencarian identitas di dunia yang memaksakan definisi sempit tentang apa itu "manusia."
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg">
+            Hubungannya dengan Hiro berkembang dari obsesif menjadi cinta sejati. Awalnya ia ingin Hiro sebagai simbol keselamatan. Di akhir cerita, ia mencintai Hiro sebagai individu, bahkan rela mengorbankan eksistensinya sendiri.
+          </p>
+        </div>
+      </section>
+
+      {/* Climax Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Klimaks dan Transendensi</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Dalam klimaks cerita, Zero Two dan Hiro menyatu secara biologis dan emosional untuk mengendalikan senjata terakhir umat manusia. Mereka meninggalkan tubuh manusia mereka dan bertarung di tingkat kosmik melawan kekuatan yang ingin mengendalikan seluruh spesies. Mereka tidak lagi bertarung sebagai manusia atau monster, tetapi sebagai dua jiwa yang memilih untuk tetap bersama, bahkan jika itu berarti kehilangan dunia yang mereka kenal.
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg">
+            Zero Two akhirnya mati bersama Hiro, tetapi cinta mereka melampaui kematian. Reinkarnasi mereka muncul di dunia baru, sebagai dua anak kecil yang bertemu kembali tanpa perang, tanpa eksperimen, tanpa penderitaan. Itu adalah simbol bahwa cinta mereka akhirnya bebas dari sistem yang menghancurkan mereka.
+          </p>
+        </div>
+      </section>
+
+      {/* Legacy Section */}
+      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Warisan</h2>
+        <div className="prose prose-lg max-w-none">
+          <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+            Zero Two menjadi ikon budaya pop karena ia mewakili sesuatu yang sangat manusiawi: keinginan untuk diterima apa adanya, meskipun dunia menolak kita. Ia bukan karakter "waifu" biasa. Ia adalah simbol dari trauma, keterasingan, dan cinta yang melawan takdir.
+          </p>
+          <p className="text-zinc-700 leading-relaxed text-lg">
+            Karena itulah Zero Two tetap hidup dalam ingatan penggemar, bukan hanya sebagai karakter, tetapi sebagai metafora tentang apa artinya menjadi manusia di dunia yang tidak peduli pada kemanusiaan.
+          </p>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="px-6 py-16 max-w-4xl mx-auto border-t border-zinc-200 text-center">
+        <p className="text-zinc-500 text-sm">
+          Darling in the Franxx © TRIGGER / A-1 Pictures
+        </p>
+      </footer>
     </div>
   );
 }
