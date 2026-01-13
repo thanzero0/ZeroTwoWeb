@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import AnimatedSection from './components/AnimatedSection';
 
 export default function Home() {
   return (
@@ -27,14 +28,14 @@ export default function Home() {
       </section>
 
       {/* World Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Dunia Distopia</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Dunia Distopia</h2>
         <div className="flex gap-6 items-start">
           <div className="prose prose-lg max-w-none flex-1">
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Zero Two hidup di dunia distopia masa depan di mana umat manusia bertahan hidup dengan mengorbankan kebebasan, emosi, dan hubungan alami. Dunia ini dipenuhi oleh struktur sosial kaku, di mana anak-anak diciptakan dan dibesarkan hanya untuk menjadi pilot robot tempur bernama <strong className="font-medium text-zinc-900">Franxx</strong>, yang digunakan untuk melawan makhluk raksasa bernama <strong className="font-medium text-zinc-900">Klaxosaur</strong>. Anak-anak ini tidak memiliki keluarga, tidak memiliki masa kecil normal, dan tidak memiliki masa depan selain bertarung sampai mati.
             </p>
-            <Link href="/dunia-distopia" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/dunia-distopia" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
@@ -44,15 +45,15 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover"
             />
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Identity Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Bukan Manusia Seutuhnya</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Bukan Manusia Seutuhnya</h2>
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
@@ -60,23 +61,23 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover"
             />
           </div>
           <div className="prose prose-lg max-w-none flex-1">
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Zero Two bukan manusia sepenuhnya. Ia adalah hasil eksperimen antara manusia dan Klaxosaur Princess, menjadikannya makhluk hibrida. Tubuhnya terlihat seperti manusia perempuan remaja, tetapi ia memiliki <strong className="font-medium text-zinc-900">tanduk merah kecil di kepala</strong>, <strong className="font-medium text-zinc-900">mata hijau tajam</strong>, dan <strong className="font-medium text-zinc-900">darah biru</strong> yang menandakan bahwa ia bukan manusia murni. Karena perbedaan ini, sejak kecil ia selalu dianggap sebagai monster, bukan sebagai anak. Ia dipenjara, dijadikan objek penelitian, dan diperlakukan sebagai alat militer, bukan sebagai individu.
             </p>
-            <Link href="/bukan-manusia-seutuhnya" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/bukan-manusia-seutuhnya" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Childhood Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Masa Kecil yang Sepi</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Masa Kecil yang Sepi</h2>
         <div className="flex gap-6 items-start">
           <div className="prose prose-lg max-w-none flex-1">
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
@@ -88,7 +89,7 @@ export default function Home() {
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Namun takdir memisahkan mereka. Hiro kemudian kehilangan ingatannya, sementara Zero Two mengingat semuanya. Sejak saat itu, Zero Two hidup dengan satu tujuan obsesif: menemukan kembali Hiro dan menjadi cukup manusia agar pantas berada di sisinya.
             </p>
-            <Link href="/masa-kecil-yang-sepi" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/masa-kecil-yang-sepi" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
@@ -98,16 +99,16 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover animate-float"
               unoptimized
             />
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Partner Killer Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Partner Killer</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Partner Killer</h2>
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
@@ -115,7 +116,7 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover animate-float"
               unoptimized
             />
           </div>
@@ -126,22 +127,22 @@ export default function Home() {
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Zero Two tahu ini. Ia tahu orang-orang mati karena dirinya. Tetapi ia tidak peduli. Dalam pikirannya, semua partner selain Hiro hanyalah alat. Ia menggunakan mereka untuk membunuh Klaxosaur agar dirinya semakin dekat dengan evolusi menjadi manusia sejati.
             </p>
-            <Link href="/partner-killer" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/partner-killer" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Reunion Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Pertemuan Kembali</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Pertemuan Kembali</h2>
         <div className="flex gap-6 items-start">
           <div className="prose prose-lg max-w-none flex-1">
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Saat ia akhirnya bertemu kembali dengan Hiro, takdir kembali bergerak. Hiro adalah satu-satunya orang yang mampu bertahan sebagai partner Zero Two tanpa mati. Hubungan mereka bukan hanya romantis, tetapi bersifat eksistensial. Hiro memberi Zero Two identitas sebagai manusia. Zero Two memberi Hiro tujuan hidup.
             </p>
-            <Link href="/pertemuan-kembali" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/pertemuan-kembali" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
@@ -151,15 +152,15 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover"
             />
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Personality Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Kepribadian yang Kontras</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Kepribadian yang Kontras</h2>
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
@@ -167,7 +168,7 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover"
             />
           </div>
           <div className="prose prose-lg max-w-none flex-1">
@@ -177,16 +178,16 @@ export default function Home() {
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Zero Two sangat takut tidak dicintai. Ia takut bahwa jika orang melihat siapa dirinya sebenarnya, mereka akan menjauh. Karena itu, ia memilih untuk menjadi monster daripada ditolak sebagai manusia.
             </p>
-            <Link href="/kepribadian-yang-kontras" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/kepribadian-yang-kontras" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Identity Conflict Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Konflik Identitas</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Konflik Identitas</h2>
         <div className="flex gap-6 items-start">
           <div className="prose prose-lg max-w-none flex-1">
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
@@ -195,7 +196,7 @@ export default function Home() {
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Hubungannya dengan Hiro berkembang dari obsesif menjadi cinta sejati. Awalnya ia ingin Hiro sebagai simbol keselamatan. Di akhir cerita, ia mencintai Hiro sebagai individu, bahkan rela mengorbankan eksistensinya sendiri.
             </p>
-            <Link href="/konflik-identitas" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/konflik-identitas" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
@@ -205,16 +206,16 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover animate-float"
               unoptimized
             />
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Climax Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Klimaks dan Transendensi</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Klimaks dan Transendensi</h2>
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
@@ -222,7 +223,7 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover animate-float"
               unoptimized
             />
           </div>
@@ -233,16 +234,16 @@ export default function Home() {
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Zero Two akhirnya mati bersama Hiro, tetapi cinta mereka melampaui kematian. Reinkarnasi mereka muncul di dunia baru, sebagai dua anak kecil yang bertemu kembali tanpa perang, tanpa eksperimen, tanpa penderitaan. Itu adalah simbol bahwa cinta mereka akhirnya bebas dari sistem yang menghancurkan mereka.
             </p>
-            <Link href="/klimaks-dan-transendensi" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/klimaks-dan-transendensi" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Legacy Section */}
-      <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
-        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Warisan</h2>
+      <AnimatedSection className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
+        <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900 title-animate">Warisan</h2>
         <div className="flex gap-6 items-start">
           <div className="prose prose-lg max-w-none flex-1">
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
@@ -251,7 +252,7 @@ export default function Home() {
             <p className="text-zinc-700 leading-relaxed text-lg mb-6">
               Karena itulah Zero Two tetap hidup dalam ingatan penggemar, bukan hanya sebagai karakter, tetapi sebagai metafora tentang apa artinya menjadi manusia di dunia yang tidak peduli pada kemanusiaan.
             </p>
-            <Link href="/warisan" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg hover:bg-zinc-800 transition-colors">
+            <Link href="/warisan" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
               Rincian Lengkap →
             </Link>
           </div>
@@ -261,12 +262,12 @@ export default function Home() {
               alt="Zero Two" 
               width={250} 
               height={250} 
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg image-hover animate-float"
               unoptimized
             />
           </div>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Footer */}
       <footer className="px-6 py-16 max-w-4xl mx-auto border-t border-zinc-200 text-center">
