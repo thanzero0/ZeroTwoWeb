@@ -56,12 +56,11 @@ export default function Home() {
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/zero-two-3.gif" 
+              src="/zerotwo-photos/Zero-two-2.jpeg" 
               alt="Zero Two" 
               width={250} 
               height={250} 
               className="rounded-lg shadow-lg"
-              unoptimized
             />
           </div>
           <div className="prose prose-lg max-w-none flex-1">
@@ -95,11 +94,12 @@ export default function Home() {
           </div>
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/Zero-two-2.jpeg" 
+              src="/zerotwo-photos/zero-two-3.gif" 
               alt="Zero Two" 
               width={250} 
               height={250} 
               className="rounded-lg shadow-lg"
+              unoptimized
             />
           </div>
         </div>
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/zero-two-1.jpeg" 
+              src="/zerotwo-photos/zero-two-5.jpg" 
               alt="Zero Two" 
               width={250} 
               height={250} 
@@ -163,12 +163,11 @@ export default function Home() {
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/zero-two-3.gif" 
+              src="/zerotwo-photos/zero-two-6.jpg" 
               alt="Zero Two" 
               width={250} 
               height={250} 
               className="rounded-lg shadow-lg"
-              unoptimized
             />
           </div>
           <div className="prose prose-lg max-w-none flex-1">
@@ -202,11 +201,12 @@ export default function Home() {
           </div>
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/Zero-two-2.jpeg" 
+              src="/zerotwo-photos/zero-two-7.gif" 
               alt="Zero Two" 
               width={250} 
               height={250} 
               className="rounded-lg shadow-lg"
+              unoptimized
             />
           </div>
         </div>
@@ -218,7 +218,7 @@ export default function Home() {
         <div className="flex gap-6 items-start">
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/zero-two-4.gif" 
+              src="/zerotwo-photos/zero-two-8.gif" 
               alt="Zero Two" 
               width={250} 
               height={250} 
@@ -257,11 +257,12 @@ export default function Home() {
           </div>
           <div className="flex-shrink-0">
             <Image 
-              src="/zerotwo-photos/zero-two-1.jpeg" 
+              src="/zerotwo-photos/zero-two-3.gif" 
               alt="Zero Two" 
               width={250} 
               height={250} 
               className="rounded-lg shadow-lg"
+              unoptimized
             />
           </div>
         </div>
