@@ -1,22 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import AnimatedSection from './components/AnimatedSection';
+import HeroSection from './components/HeroSection';
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-zinc-900">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-6 py-20">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl font-light tracking-tight mb-6 text-zinc-900">
-            Zero Two
-          </h1>
-          <p className="text-xl md:text-2xl text-zinc-600 font-light max-w-2xl mx-auto leading-relaxed">
-            My waifus, so i want to let all of you know about it, sybau
-          </p>
-          <div className="mt-16 h-px w-24 bg-zinc-300 mx-auto"></div>
-        </div>
-      </section>
+      <HeroSection />
 
       {/* Introduction */}
       <section className="px-6 py-20 max-w-4xl mx-auto">
