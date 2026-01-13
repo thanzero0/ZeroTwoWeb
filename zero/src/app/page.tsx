@@ -50,11 +50,6 @@ export default function Home() {
       <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
         <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Bukan Manusia Seutuhnya</h2>
         <div className="flex gap-6 items-start">
-          <div className="prose prose-lg max-w-none flex-1">
-            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
-              Zero Two bukan manusia sepenuhnya. Ia adalah hasil eksperimen antara manusia dan Klaxosaur Princess, menjadikannya makhluk hibrida. Tubuhnya terlihat seperti manusia perempuan remaja, tetapi ia memiliki <strong className="font-medium text-zinc-900">tanduk merah kecil di kepala</strong>, <strong className="font-medium text-zinc-900">mata hijau tajam</strong>, dan <strong className="font-medium text-zinc-900">darah biru</strong> yang menandakan bahwa ia bukan manusia murni. Karena perbedaan ini, sejak kecil ia selalu dianggap sebagai monster, bukan sebagai anak. Ia dipenjara, dijadikan objek penelitian, dan diperlakukan sebagai alat militer, bukan sebagai individu.
-            </p>
-          </div>
           <div className="flex-shrink-0">
             <Image 
               src="/zerotwo-photos/zero-two-3.gif" 
@@ -64,6 +59,11 @@ export default function Home() {
               className="rounded-lg shadow-lg"
               unoptimized
             />
+          </div>
+          <div className="prose prose-lg max-w-none flex-1">
+            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+              Zero Two bukan manusia sepenuhnya. Ia adalah hasil eksperimen antara manusia dan Klaxosaur Princess, menjadikannya makhluk hibrida. Tubuhnya terlihat seperti manusia perempuan remaja, tetapi ia memiliki <strong className="font-medium text-zinc-900">tanduk merah kecil di kepala</strong>, <strong className="font-medium text-zinc-900">mata hijau tajam</strong>, dan <strong className="font-medium text-zinc-900">darah biru</strong> yang menandakan bahwa ia bukan manusia murni. Karena perbedaan ini, sejak kecil ia selalu dianggap sebagai monster, bukan sebagai anak. Ia dipenjara, dijadikan objek penelitian, dan diperlakukan sebagai alat militer, bukan sebagai individu.
+            </p>
           </div>
         </div>
       </section>
@@ -99,14 +99,6 @@ export default function Home() {
       <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
         <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Partner Killer</h2>
         <div className="flex gap-6 items-start">
-          <div className="prose prose-lg max-w-none flex-1">
-            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
-              Dalam dunia Franxx, pilot harus bekerja berpasangan pria dan wanita, dan sinkronisasi emosional mereka menentukan kekuatan robot. Zero Two memiliki kemampuan luar biasa dalam bertarung, tetapi ada harga yang harus dibayar. Siapa pun yang menjadi partner Zero Two akan perlahan mati karena tubuhnya tidak mampu menahan sinkronisasi dengan darah Klaxosaur dalam dirinya. Karena itu, ia dijuluki <strong className="font-medium text-zinc-900">"Partner Killer."</strong>
-            </p>
-            <p className="text-zinc-700 leading-relaxed text-lg">
-              Zero Two tahu ini. Ia tahu orang-orang mati karena dirinya. Tetapi ia tidak peduli. Dalam pikirannya, semua partner selain Hiro hanyalah alat. Ia menggunakan mereka untuk membunuh Klaxosaur agar dirinya semakin dekat dengan evolusi menjadi manusia sejati.
-            </p>
-          </div>
           <div className="flex-shrink-0">
             <Image 
               src="/zerotwo-photos/zero-two-4.gif" 
@@ -116,6 +108,14 @@ export default function Home() {
               className="rounded-lg shadow-lg"
               unoptimized
             />
+          </div>
+          <div className="prose prose-lg max-w-none flex-1">
+            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+              Dalam dunia Franxx, pilot harus bekerja berpasangan pria dan wanita, dan sinkronisasi emosional mereka menentukan kekuatan robot. Zero Two memiliki kemampuan luar biasa dalam bertarung, tetapi ada harga yang harus dibayar. Siapa pun yang menjadi partner Zero Two akan perlahan mati karena tubuhnya tidak mampu menahan sinkronisasi dengan darah Klaxosaur dalam dirinya. Karena itu, ia dijuluki <strong className="font-medium text-zinc-900">"Partner Killer."</strong>
+            </p>
+            <p className="text-zinc-700 leading-relaxed text-lg">
+              Zero Two tahu ini. Ia tahu orang-orang mati karena dirinya. Tetapi ia tidak peduli. Dalam pikirannya, semua partner selain Hiro hanyalah alat. Ia menggunakan mereka untuk membunuh Klaxosaur agar dirinya semakin dekat dengan evolusi menjadi manusia sejati.
+            </p>
           </div>
         </div>
       </section>
@@ -145,14 +145,6 @@ export default function Home() {
       <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
         <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Kepribadian yang Kontras</h2>
         <div className="flex gap-6 items-start">
-          <div className="prose prose-lg max-w-none flex-1">
-            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
-              Kepribadian Zero Two sangat kontras. Di permukaan, ia terlihat provokatif, liar, percaya diri, dan manipulatif. Ia menggoda, mengejek, dan sering melanggar aturan. Namun di dalam dirinya, Zero Two adalah makhluk yang sangat rapuh, penuh trauma, dan ketakutan ditinggalkan. Semua sikap agresif dan dominannya adalah mekanisme bertahan hidup dari seorang anak yang sejak kecil hanya mengenal penolakan.
-            </p>
-            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
-              Zero Two sangat takut tidak dicintai. Ia takut bahwa jika orang melihat siapa dirinya sebenarnya, mereka akan menjauh. Karena itu, ia memilih untuk menjadi monster daripada ditolak sebagai manusia.
-            </p>
-          </div>
           <div className="flex-shrink-0">
             <Image 
               src="/zerotwo-photos/zero-two-3.gif" 
@@ -162,6 +154,14 @@ export default function Home() {
               className="rounded-lg shadow-lg"
               unoptimized
             />
+          </div>
+          <div className="prose prose-lg max-w-none flex-1">
+            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+              Kepribadian Zero Two sangat kontras. Di permukaan, ia terlihat provokatif, liar, percaya diri, dan manipulatif. Ia menggoda, mengejek, dan sering melanggar aturan. Namun di dalam dirinya, Zero Two adalah makhluk yang sangat rapuh, penuh trauma, dan ketakutan ditinggalkan. Semua sikap agresif dan dominannya adalah mekanisme bertahan hidup dari seorang anak yang sejak kecil hanya mengenal penolakan.
+            </p>
+            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+              Zero Two sangat takut tidak dicintai. Ia takut bahwa jika orang melihat siapa dirinya sebenarnya, mereka akan menjauh. Karena itu, ia memilih untuk menjadi monster daripada ditolak sebagai manusia.
+            </p>
           </div>
         </div>
       </section>
@@ -194,14 +194,6 @@ export default function Home() {
       <section className="px-6 py-20 max-w-4xl mx-auto border-t border-zinc-200">
         <h2 className="text-3xl md:text-4xl font-light mb-8 text-zinc-900">Klimaks dan Transendensi</h2>
         <div className="flex gap-6 items-start">
-          <div className="prose prose-lg max-w-none flex-1">
-            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
-              Dalam klimaks cerita, Zero Two dan Hiro menyatu secara biologis dan emosional untuk mengendalikan senjata terakhir umat manusia. Mereka meninggalkan tubuh manusia mereka dan bertarung di tingkat kosmik melawan kekuatan yang ingin mengendalikan seluruh spesies. Mereka tidak lagi bertarung sebagai manusia atau monster, tetapi sebagai dua jiwa yang memilih untuk tetap bersama, bahkan jika itu berarti kehilangan dunia yang mereka kenal.
-            </p>
-            <p className="text-zinc-700 leading-relaxed text-lg">
-              Zero Two akhirnya mati bersama Hiro, tetapi cinta mereka melampaui kematian. Reinkarnasi mereka muncul di dunia baru, sebagai dua anak kecil yang bertemu kembali tanpa perang, tanpa eksperimen, tanpa penderitaan. Itu adalah simbol bahwa cinta mereka akhirnya bebas dari sistem yang menghancurkan mereka.
-            </p>
-          </div>
           <div className="flex-shrink-0">
             <Image 
               src="/zerotwo-photos/zero-two-4.gif" 
@@ -211,6 +203,14 @@ export default function Home() {
               className="rounded-lg shadow-lg"
               unoptimized
             />
+          </div>
+          <div className="prose prose-lg max-w-none flex-1">
+            <p className="text-zinc-700 leading-relaxed text-lg mb-6">
+              Dalam klimaks cerita, Zero Two dan Hiro menyatu secara biologis dan emosional untuk mengendalikan senjata terakhir umat manusia. Mereka meninggalkan tubuh manusia mereka dan bertarung di tingkat kosmik melawan kekuatan yang ingin mengendalikan seluruh spesies. Mereka tidak lagi bertarung sebagai manusia atau monster, tetapi sebagai dua jiwa yang memilih untuk tetap bersama, bahkan jika itu berarti kehilangan dunia yang mereka kenal.
+            </p>
+            <p className="text-zinc-700 leading-relaxed text-lg">
+              Zero Two akhirnya mati bersama Hiro, tetapi cinta mereka melampaui kematian. Reinkarnasi mereka muncul di dunia baru, sebagai dua anak kecil yang bertemu kembali tanpa perang, tanpa eksperimen, tanpa penderitaan. Itu adalah simbol bahwa cinta mereka akhirnya bebas dari sistem yang menghancurkan mereka.
+            </p>
           </div>
         </div>
       </section>
