@@ -8,9 +8,56 @@ export default function BukanManusiaSeutuhnya() {
           ← Kembali
         </Link>
         <h1 className="text-4xl md:text-5xl font-light mb-8 text-zinc-900">Bukan Manusia Seutuhnya</h1>
-        <div className="prose prose-lg max-w-none">
-          {/* Rincian lengkap akan diisi nanti */}
-        </div>
+
+        <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
+          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 1: </h2>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </section>
+
+        <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
+          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 2: </h2>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </section>
+
+        <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
+          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 3: </h2>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </section>
+
+        <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
+          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 4: </h2>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </section>
+
+        <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
+          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 5: </h2>
+          <p>
+
+          </p>
+          <p>
+
+          </p>
+        </section>
       </div>
     </div>
   );
