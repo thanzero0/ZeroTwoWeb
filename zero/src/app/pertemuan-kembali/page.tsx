@@ -8,9 +8,7 @@ export default function PertemuanKembali() {
           ← Kembali
         </Link>
         <h1 className="text-4xl md:text-5xl font-light mb-8 text-zinc-900">Pertemuan Kembali</h1>
-        <div className="prose prose-lg max-w-none">
-          {/* Rincian lengkap akan diisi nanti */}
-        </div>
+        
       </div>
     </div>
   );
