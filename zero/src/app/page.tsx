@@ -3,9 +3,19 @@ import HeroSection from './components/HeroSection';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-zinc-900">
+    <div className="min-h-screen bg-white text-zinc-900 pb-20">
       {/* Hero Section */}
       <HeroSection />
+
+      {/* Instruction Section */}
+      <section className="px-6 py-12 max-w-4xl mx-auto text-center border-b border-zinc-200">
+        <p className="text-zinc-600 text-lg mb-4">
+          Pilih salah satu menu di bawah untuk menjelajahi lebih lanjut
+        </p>
+        <p className="text-zinc-500 text-sm">
+          Arahkan kursor ke ikon untuk melihat pilihan
+        </p>
+      </section>
 
       {/* Main Menu */}
       <section className="px-6 py-20 max-w-4xl mx-auto">
@@ -55,7 +65,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="px-6 py-16 max-w-4xl mx-auto border-t border-zinc-200 text-center">
         <p className="text-zinc-500 text-sm">
-          Darling in the Franxx © TRIGGER / A-1 Pictures
+          Darling in the Franxx © ZERO by Thanzero 
         </p>
       </footer>
     </div>
