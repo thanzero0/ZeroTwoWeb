@@ -4,7 +4,7 @@ export default function DuniaDistopia() {
   return (
     <div className="min-h-screen bg-white text-zinc-900">
       <div className="max-w-4xl mx-auto px-6 py-20 space-y-16">
-        <Link href="/" className="inline-block mb-8 text-zinc-600 hover:text-zinc-900 transition-colors">
+        <Link href="/story" className="inline-block mb-8 text-zinc-600 hover:text-zinc-900 transition-colors">
           ← Kembali
         </Link>
         <h1 className="text-4xl md:text-5xl font-light text-zinc-900">Dunia Distopia</h1>
