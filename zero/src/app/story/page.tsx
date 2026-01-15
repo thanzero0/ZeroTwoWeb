@@ -77,9 +77,6 @@ export default function Story() {
               <p className="text-zinc-700 leading-relaxed text-lg mb-6">
                 Hiro adalah satu-satunya orang yang tidak melihat Zero Two sebagai monster. Dari titik itu, Zero Two membangun seluruh identitas emosionalnya di sekitar Hiro. Ia ingin menjadi manusia agar bisa bersama Hiro. Ia ingin hidup seperti gadis biasa. Ia ingin dicintai.
               </p>
-              <p className="text-zinc-700 leading-relaxed text-lg mb-6">
-                Namun takdir memisahkan mereka. Hiro kemudian kehilangan ingatannya, sementara Zero Two mengingat semuanya. Sejak saat itu, Zero Two hidup dengan satu tujuan obsesif: menemukan kembali Hiro dan menjadi cukup manusia agar pantas berada di sisinya.
-              </p>
               <Link href="/story/masa-kecil-yang-sepi" className="inline-block mt-4 px-6 py-2 bg-zinc-900 text-white rounded-lg button-hover">
                 Rincian Lengkap →
               </Link>
