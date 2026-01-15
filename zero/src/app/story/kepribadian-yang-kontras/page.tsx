@@ -35,12 +35,22 @@ export default function KepribadianYangKontras() {
         </section>
 
         <section className="prose prose-lg max-w-none leading-relaxed space-y-4">
-          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 2: </h2>
+          <h2 className="text-2xl font-semibold text-zinc-900">Bagian 2: Pemisahan dan Kenangan yang Bertahan</h2>
           <p>
-
+          Kesepian yang kembali itu sepuluh kali lebih menyakitkan. Ruangan yang dulu terasa luas kini terasa seperti peti mati. 
+          Namun, kali ini, Zero Two tidak kosong sama sekali. Ia masih memiliki buku bergambar itu, yang berhasil ia sembunyikan. 
+          Setiap malam, di bawah cahaya lampu redup, ia akan membuka halaman-halamannya yang sudah mulai lusuh. Ia tidak hanya 
+          melihat gambar-gambarnya; ia melihat wajah Hiro yang ramah, mendengar janjinya, merasakan kembali kehangatan sentuhannya. 
+          Kenangan itu menjadi pelindungnya dari perlakuan dingin para ilmuwan, dari uji coba yang menyakitkan, dan dari pandangan 
+          penuh kebencian dari para "rekan" kloning lainnya yang memanggilnya "monster".
           </p>
           <p>
-
+          Ia mulai menggambar di pinggiran halaman buku, coretan-coretan kikuk tentang dua sosok kecil yang sedang berpegangan 
+          tangan. Buku itu bukan lagi sekadar hadiah; ia menjadi altar untuk satu-satunya cahaya dalam hidupnya. Identitas 
+          emosionalnya yang sekarang sepenuhnya terbangun di sekitar Hiro, tumbuh subur dalam ketidakhadirannya, berubah menjadi 
+          sebuah obsesi yang mendalam. "Menjadi manusia" tidak lagi sekadar impian abstrak; itu adalah satu-satunya jalan untuk 
+          keluar dari sangkar ini, untuk menemukannya lagi, untuk memastikan bahwa janji masa kecil mereka bukan sekadar khayalan 
+          belaka.
           </p>
         </section>
 
